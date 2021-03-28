@@ -1,5 +1,5 @@
 # 🙈 Give me ⭐️ before kanging code
-# © @Mr_Dark_Prince 🌚
+# © @Mr_Dark_Prince 🌚 Kanger hai yeh Dark Prince Chutiya madarchod
 
 import requests
 url = "https://iamai.p.rapidapi.com/ask"
@@ -29,7 +29,7 @@ async def hmm(event):
   lodu = response.json()
   result = (lodu['message']['text'])
   if "no no" in result:
-   pro = "I am fairly yound and I was made by @Mr_Dark_Prince."
+   pro = "I am fairly yound and I was made by @EmceeDevs."
    try:
       async with telethn.action(event.chat_id, 'typing'):
            await asyncio.sleep(2)
