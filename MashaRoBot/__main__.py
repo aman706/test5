@@ -74,24 +74,30 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hellow` [🤗](https://telegra.ph/file/754a36d8c2e2b01f2a3a9.png) `My name is` *Alita*
-`I'm here to help you manage your groups! Hit` *📚Commands* `button below to find out more about how to use me to my full potential.` 
+нєℓℓσ ι αм [єм¢єє](https://telegra.ph/file/3fa49f4cfbb07872dd715.jpg)* ѕυρєя gяσυρ мαηαgємєηт вσт. 
+ι ¢αη нєℓρ уσυ тσ єαѕιℓу мαιηтαιη уσυя gяσυσ! нιт` *📚Commands* `buttoη вєℓσω тσ ƒιη∂ συт тнє ¢σммαη∂ѕ тσ υѕє мє ƒσя вєттєя єƒƒι¢ιєηу σƒ уσυя gяσυρ
+.` 
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD ALITA TO YOUR GROUP ➕️", url="t.me/AlitaRobot?startgroup=true"),
+            text="➕️ ADD єм¢єє TO YOUR GROUP ➕️", url="t.me/Emcee_Bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="masha_"),
         InlineKeyboardButton(text="📚 COMMANDS", callback_data="help_back"),
     ],
     [
+        InlineKeyboardButton(text="🔥 DEVS", url="t.me/EmceeDevs"),
+        InlineKeyboardButton(text="🔥 OWNER", url="t.me/Aquila_14"),
+    ],
+    [
+    [
         InlineKeyboardButton(
             text="💾 SOURCE", callback_data="source_"),
         InlineKeyboardButton(
-            text="👥 SUPPORT", url="https://t.me/AlitaSupport"
+            text="👥 SUPPORT", url="https://t.me/EmceeSupport"
         ),
     ],
 ]
