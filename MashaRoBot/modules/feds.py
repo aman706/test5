@@ -18,7 +18,7 @@ from telethon import *
 from telethon import Button
 from telethon.tl import *
 from telethon.tl.types import User
-from Evie import *
+from MashaRoBot import *
 from telethon.tl.functions.users import GetFullUserRequest
 from telethon.tl.types import MessageMediaDocument, DocumentAttributeFilename
 from MashaRoBot.events import register
