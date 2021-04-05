@@ -10,7 +10,7 @@ from MashaRoBot import (
     dispatcher,
 )
 import os, re, csv, json, time, uuid
-from MashaRoBot.function import is_admin
+from MashaRoBot.modules.helper_funcs.chat_status import is_user_admin
 from io import BytesIO
 import MashaRoBot.modules.sql.feds_sql as sql
 from MashaRoBot.modules.sql.feds_sql import FEDS_SUBSCRIBER as luv
