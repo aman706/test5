@@ -359,8 +359,8 @@ def Masha_about_callback(update, context):
                  \n❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
-                 \n\n_Masha's licensed under the GNU General Public License v3.0_
-                 \nHere is the [💾Repository](https://github.com/TeamEviral/MashaRoBot).
+                 \n\n_Alita's licensed under the GNU General Public License v3.0_
+                 \nHere is the [💾Repository](https://github.com/Paulsonoflars/tgbot).
                  \n\nIf you have any question about Masha, let us know at @AlitaSupport.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -388,7 +388,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..🤗 I'm *Alita*
-                 \nHere is the [Source Code](https://github.com/TeamEviral/MashaRoBot) .""",
+                 \nHere is the [Source Code](https://github.com/Paulsonoflars/tgbot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
