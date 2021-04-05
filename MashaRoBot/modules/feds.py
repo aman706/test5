@@ -373,7 +373,7 @@ async def info(event):
   except:
      subs = None
   if len(subs) == None:
-   caption += "\n\nThis federation is not subscribed to any other feds."
+   caption += f"Number of subscribed feds: `{len(subs)}`"
   if subs:
      caption += "\n\nSubscribed to the following feds:"
      for x in subs:
