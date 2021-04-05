@@ -2,7 +2,7 @@ from telethon.tl import functions
 from telethon.tl import types
 from MashaRoBot import telethn as tbot
 import MashaRoBot.modules.sql.elevated_sql as sql
-from MashaRoBot.modules.sql.chats_sql import add_chat, rmchat, is_chat, get_all_chat_id
+from MashaRoBot.modules.users_sql.py import add_chat, rmchat, is_chat, get_all_chat_id
 from MashaRoBot.modules.sql.setbio_sql import set_bio, rm_bio, check_bio_status, is_bio, get_all_bio_id
 
 
