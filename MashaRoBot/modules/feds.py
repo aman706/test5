@@ -1,4 +1,4 @@
-from MashaRoBot import tbot
+from MashaRoBot import telethn as tbot
 from MashaRoBot import (
     EVENT_LOGS,
     LOGGER,
