@@ -1,7 +1,4 @@
-"""
-Fully Written by RoseLoverX
-"""
-from MashaRoBot import tbot,
+from MashaRoBot import tbot
 from MashaRoBot import (
     EVENT_LOGS,
     LOGGER,
