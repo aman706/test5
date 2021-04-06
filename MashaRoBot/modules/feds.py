@@ -106,8 +106,12 @@ def is_user_fed_owner(fed_id, user_id):
 
 
 """
-Fully Written by RoseLoverX
+JNL
 """
+@register(pattern="^/omk ?(.*)")
+async def new(event):
+ return await event.reply("ok")
+
 @register(pattern="^/newfed ?(.*)")
 async def new(event):
  if not event.is_private:
