@@ -15,7 +15,7 @@ from io import BytesIO
 import MashaRoBot.modules.sql.feds_sql as sql
 from MashaRoBot.modules.sql.feds_sql import FEDS_SUBSCRIBER as luv
 from telethon import *
-from telethon import Button, event
+from telethon import Button
 from telethon.tl import *
 from telethon.tl.types import User
 from MashaRoBot import *
