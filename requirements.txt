@@ -39,6 +39,8 @@ ujson
 pretty_errors
 TgCrypto
 Pyrogram
+aiogram
+babel
 youtube-dl
 youtube_search
 asyncio
