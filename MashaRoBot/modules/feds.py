@@ -109,7 +109,7 @@ def is_user_fed_owner(fed_id, user_id):
 JNL
 """
 @register(pattern="^/omk ?(.*)")
-async def new(event):
+async def _(event):
  return await event.reply("ok")
 
 @register(pattern="^/newfed ?(.*)")
