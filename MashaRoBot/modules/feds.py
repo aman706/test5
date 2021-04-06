@@ -15,7 +15,7 @@ from io import BytesIO
 import MashaRoBot.modules.sql.feds_sql as sql
 from MashaRoBot.modules.sql.feds_sql import FEDS_SUBSCRIBER as luv
 from telethon import *
-from telethon import Button
+from telethon import Button, event
 from telethon.tl import *
 from telethon.tl.types import User
 from MashaRoBot import *
@@ -108,7 +108,7 @@ def is_user_fed_owner(fed_id, user_id):
 """
 JNL
 """
-@register(pattern="^/omk ?(.*)")
+@register(pattern="^/omk")
 async def _(event):
  return await event.reply("ok")
 
