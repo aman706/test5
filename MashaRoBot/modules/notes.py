@@ -32,11 +32,11 @@ from babel.dates import format_datetime
 from pymongo import ReplaceOne
 from telethon.errors.rpcerrorlist import MessageDeleteForbiddenError
 
-from DaisyX import bot
-from DaisyX.decorator import register
-from DaisyX.services.mongo import db
-from DaisyX.services.redis import redis
-from DaisyX.services.telethon import tbot
+from MashaRoBot import bot
+from MashaRoBot.decorator import register
+from MashaRoBot.services.mongo import db
+from MashaRoBot.services.redis import redis
+from MashaRoBot.services.telethon import tbot
 
 from .utils.connections import chat_connection, set_connected_command
 from .utils.disable import disableable_dec
